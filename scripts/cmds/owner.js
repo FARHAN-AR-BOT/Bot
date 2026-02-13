@@ -1,4 +1,4 @@
-const axios = require("axios");
+axios = require("axios");
 const fs = require("fs-extra");
 const path = require("path");
 
@@ -15,7 +15,7 @@ module.exports = {
 
   onStart: async function ({ api, event }) {
     // সরাসরি ইমেজের লিঙ্ক
-    const imageUrl = "https://i.imgur.com/dJD7ren.jpeg"; 
+    const imageUrl = "imag_link"; 
     
     // সময় ও আপটাইম ক্যালকুলেশন
     const uptime = process.uptime();
