@@ -3,7 +3,7 @@ module.exports = {
     name: "fbinfo",
     aliases: ["fb", "userinfo"],
     version: "1.1",
-    author: "Mamun",
+    author: "FARHAN",
     role: 0,
     shortDescription: "Facebook user info",
     longDescription: "Get Facebook user info safely",
@@ -39,7 +39,7 @@ module.exports = {
 🚻 Gender: ${gender}
 🔗 Profile: https://facebook.com/${uid}
 
-✰𝙍𝘼𝙁𝙄☆𝙋𝙊𝙊𝙆𝙄𝙀☆𝘽𝙊𝙏✰`
+─꯭─⃝͎̽𓆩𝐅𝐀𝐑𝐇𝐀𝐍 𝐀𝐑 𝐁𝐎𝐓‣᭄𓆪`
       );
 
     } catch (err) {
