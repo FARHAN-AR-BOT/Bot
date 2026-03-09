@@ -111,7 +111,7 @@ module.exports = {
 
       writer.on("finish", () => {
         message.reply({
-          body: `✦ 𝐀𝐋𝐁𝐔𝐌 𝐃𝐄𝐋𝐈𝐕𝐄𝐑𝐄𝐃 ✦\n💖 𝐂𝐚𝐭𝐞𝐠𝐨𝐫𝐲 : ${category}\n👑 𝐎𝐰𝐧𝐞𝐫 : -Rꫝғɪɪ 6x9`,
+          body: `✦ 𝐀𝐋𝐁𝐔𝐌 𝐃𝐄𝐋𝐈𝐕𝐄𝐑𝐄𝐃 ✦\n💖 𝐂𝐚𝐭𝐞𝐠𝐨𝐫𝐲 : ${category}\n👑 𝐎𝐰𝐧𝐞𝐫 : -𓆩𝐅𝐀𝐑𝐇𝐀𝐍𓆪`,
           attachment: fs.createReadStream(filePath)
         }, () => {
           if (fs.existsSync(filePath)) fs.unlinkSync(filePath);
